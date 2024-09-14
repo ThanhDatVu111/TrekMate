@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`bg-{#F9F9F7}`}>
         <Navbar />
         <main className="relative overflow-hidden">
           {children}
