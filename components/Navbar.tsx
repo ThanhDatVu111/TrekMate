@@ -6,7 +6,7 @@ import Button from "./Button"
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
-        <Link href="/" style={{ marginLeft: '-100px' }}>
+        <Link href="/" style={{ marginLeft: '-80px' }}>
           <Image src="/trekmate-logo.svg" alt="logo" width={250} height={30} />
         </Link>
 

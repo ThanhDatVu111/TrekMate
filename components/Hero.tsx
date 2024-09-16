@@ -13,7 +13,7 @@ const Hero = () => {
             width={500} // Set the desired width
             height={300} // Set the desired height
         />
-        <h1 className="bold-52 lg:bold-88">Ha Long Bay</h1>
+        <h1 className="bold-52 lg:bold-88">Viet Nam</h1>
         <p className="regular-16 mt-6 text-black xl:max-w-[520px]">
         We're here to join you on your journey to discover the pure beauty of nature. Let us guide your adventure around the world, all within a single app.
         </p>
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-[#9B8975] px-7 py-8">
+        <div className="relative z-20 flex w-[268px] flex-col gap-2 rounded-3xl bg-[#9B8975] px-7 py-5 ml-auto">
 
            <div className="flex flex-col">
             <div className="flexBetween">
