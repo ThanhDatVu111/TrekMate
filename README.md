@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 TrekMate: Vietnam Travel App
 
-## Getting Started
+TrekMate is a responsive and interactive travel app designed to help users discover the beauty of Vietnam. Built with React and Tailwind CSS, this app features a sleek interface that enhances the travel planning experience.
 
-First, run the development server:
+# ⚙️ Tech Stack
+React
 
-```bash
+TypeScript 
+
+Next.js
+
+Tailwind CSS
+
+# 🔋 Features
+Interactive UI: Explore stunning Vietnamese destinations through a user-friendly interface.
+
+Comprehensive Information: Access detailed descriptions and insights about various places of interest.
+
+User-Friendly Navigation: Effortlessly search and navigate through the app with intuitive design.
+
+Responsive Design: Enjoy seamless browsing across different devices and screen sizes.
+
+# 🌟 Highlights of the App
+Destination Highlights: Discover popular travel spots with rich imagery and descriptions.
+
+Search Functionality: Quickly find specific locations or activities that match your interests.
+
+User Engagement: Interactive features that allow users to save their favorite destinations.
+
+Mobile Responsive: Optimized for mobile devices, ensuring a great experience on the go.
+
+# 🚀 Getting Started
+Follow these steps to set up TrekMate locally.
+
+***Prerequisites***
+Git
+
+Node.js
+
+npm
+
+***Clone the Repository***
+
+git clone [https://github.com/ThanhDatVu111/TrekMate.git]
+
+***Install Dependencies***
+
+npm install
+
+***Run the Project***
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🛠️ Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Trek_MATE/
+├── .next/
+├── app/
+│   ├── fonts/
+│   ├── components/
+│   │   ├── Button.tsx
+│   │   ├── Features.tsx
+│   │   ├── Footer.tsx
+│   │   ├── GetApp.tsx
+│   │   ├── Guide.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Travel.tsx
+│   ├── constants/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── node_modules/
+├── public/
+├── .gitignore
+├── next-env.d.ts
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Code Architecture
+Component-Based Design: Each feature of the app is organized into reusable React components.
 
-## Learn More
+File Structure: Clearly organized folders for assets, components, and constants to enhance maintainability.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 📝 Contributing
+We welcome contributions to TrekMate! If you're interested in helping improve the app, please read our contributing guidelines before submitting pull requests.
