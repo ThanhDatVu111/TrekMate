@@ -4,7 +4,7 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="padding-container max-container w-full pb-24">
+      <div className="padding-container max-container w-full pb-24" style={{ marginTop: '-40px' }}>
         <p className="uppercase regular-18 -mt-1 mb-3 text-[#8BAA94]">
           Explore Vietnam with ease
         </p>
@@ -21,9 +21,9 @@ const Guide = () => {
         <Image 
           src="/vespa.png"
           alt="vespa"
-          width={1240}
-          height={580}
-          className="w-full object-cover object-center 2xl:rounded-5xl"
+          width={1240}   // Keep the original image dimensions for clarity
+          height={380}
+          className="w-full max-w-[1200px] h-auto object-cover object-center 2xl:rounded-5xl"
         />
 
         <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
