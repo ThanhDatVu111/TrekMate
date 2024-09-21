@@ -52,38 +52,6 @@ npm install
 npm run dev
 Open http://localhost:3000 in your browser to view the app.
 
-# 🛠️ Project Structure
-
-Trek_MATE/
-├── .next/
-├── app/
-│   ├── fonts/
-│   ├── components/
-│   │   ├── Button.tsx
-│   │   ├── Features.tsx
-│   │   ├── Footer.tsx
-│   │   ├── GetApp.tsx
-│   │   ├── Guide.tsx
-│   │   ├── Hero.tsx
-│   │   ├── Navbar.tsx
-│   │   └── Travel.tsx
-│   ├── constants/
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── node_modules/
-├── public/
-├── .gitignore
-├── next-env.d.ts
-├── next.config.mjs
-├── package.json
-├── package-lock.json
-├── postcss.config.mjs
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
-
 # Code Architecture
 Component-Based Design: Each feature of the app is organized into reusable React components.
 
