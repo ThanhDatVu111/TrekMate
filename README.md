@@ -2,6 +2,9 @@
 
 TrekMate is a responsive and interactive travel app designed to help users discover the beauty of Vietnam. Built with React and Tailwind CSS, this app features a sleek interface that enhances the travel planning experience.
 
+# Demo
+https://www.youtube.com/watch?v=7IJKBrga0tU
+
 # ⚙️ Tech Stack
 React
 
